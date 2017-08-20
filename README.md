@@ -9,7 +9,16 @@
 
     $ npm install && npm start
 
-## Licence
+## REST endpoints
+
+- GET /config
+- GET /schedule	
+	
+## Admin access
+
+    $ npm install twitterwall-cli -g
+	
+## License
 
 The [MIT License (MIT)](http://opensource.org/licenses/MIT)
 
