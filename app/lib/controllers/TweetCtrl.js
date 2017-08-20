@@ -82,7 +82,10 @@ exports.normalize = function (blocks, tweet) {
     })
   }
 
-  tweet.text = exports.emojify(tweet.text, tweet.entities)
+  tweet.full_text = exports.emojify(tweet.full_text, tweet.entities)
+  tweet.full_text = tweet.full_text.replace(/<a(\s[^>]*)?>.*?<\/a>/ig,"")
+  tweet.full_text = tweet.full_text.replace(/(\s)?@/ig,"")
+  tweet.text = tweet.full_text
 
   return tweet
 }

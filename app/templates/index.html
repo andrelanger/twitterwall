@@ -4,9 +4,12 @@
   <link rel="stylesheet" type="text/css" href="bundle.css">
 </head>
 <body>
+<!--
   <section id="main" ng-style="{
     'background-image': 'url(' + background + ')'
   }">
+-->
+  <section id="main">
     <div class="schedule" ng-controller="ScheduleCtrl">
       <div class="general">
         <h1>
@@ -24,7 +27,7 @@
           </div>
           <h3>
             <time relative datetime="{{eventdayify(nextUp.start_time)}}"></time>
-            in the <strong ng-style="nextUp.style.spacename">{{nextUp.space_name}}</strong>
+            im Raum <strong ng-style="nextUp.style.spacename">{{nextUp.space_name}}</strong>
             <br>
             <span>{{eventdayify(nextUp.start_time) | date:'shortTime'}}</span>
           </h3>
