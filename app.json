@@ -8,7 +8,6 @@
   "env": {
     "TITLE": {
       "description": "The title of your twitterwall",
-	  ",
 	  "value": 'INFORMATIK 2017'	  
      },
     "HASHTAG": {
