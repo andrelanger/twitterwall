@@ -1,50 +1,62 @@
 {
   "name": "twitterwall",
-  "description": ".concat() twitterwall",
-  "repository": "https://github.com/conc-at/twitterwall",
-  "logo": "https://rawgit.com/conc-at/twitterwall/master/app/images/concat.svg",
+  "description": "INFORMATIK 2017 twitterwall",
+  "repository": "https://github.com/andrelanger/twitterwall",
+  "logo": "https://medien.informatik.tu-chemnitz.de/informatik2017/files/2016/06/GI-Logo-text-2012_deutsch-e1466163821786.png",
   "success_url": "/",
   "keywords": ["twitterwall", "realtime", "conference"],
   "env": {
     "TITLE": {
-      "description": "The title of your twitterwall"
+      "description": "The title of your twitterwall",
+	  ",
+	  "value": 'INFORMATIK 2017'	  
      },
     "HASHTAG": {
-      "description": "The main hashtag you want to encourage people to tweet with"
+      "description": "The main hashtag you want to encourage people to tweet with",
+	  "value": '#informatik17,#informatik2017'
      },
     "HASHTAGS": {
-      "description": "A comma seperated list of hashtags you want to display"
+      "description": "A comma seperated list of hashtags you want to display",
+  	  "value": '#informatik2017'
+
      },
     "USERS": {
       "description": "A comma seperated list of users whose tweets you want to display",
-      "value": ""
+      "value": "informatik2017"
     },
     "ACCESS_TOKEN": {
-      "description": "Go to https://apps.twitter.com/ an get yourself some tokens"
+      "description": "Go to https://apps.twitter.com/ an get yourself some tokens",
+	  "value": 'XXX'
      },
     "ACCESS_TOKEN_SECRET": {
-      "description": "See ACCESS_TOKEN"
+      "description": "See ACCESS_TOKEN",
+	  "value": 'XXX'
      },
     "CONSUMER_KEY": {
-      "description": "See ACCESS_TOKEN"
+      "description": "See ACCESS_TOKEN",
+	  "value": 'XXX'
      },
     "CONSUMER_SECRET": {
-      "description": "See ACCESS_TOKEN"
+      "description": "See ACCESS_TOKEN",
+	  "value": 'XXX'
      },
     "LANYRD_YEAR": {
-      "description": "Go to your lanyrd event page and enter the year that is in the URL"
+      "description": "Go to your lanyrd event page and enter the year that is in the URL",
+	  "value": '2017'
      },
     "LANYRD_ID": {
-      "description": "Go to your lanyrd event page and enter the event name/id that is in the URL"
+      "description": "Go to your lanyrd event page and enter the event name/id that is in the URL",
+	  "value": 'informatik'	  
      },
     "ADMIN_USER": {
       "description": "A username for the admin API used by https://github.com/conc-at/twitterwall-cli",
       "value": "admin",
-      "required": false
+      "required": true
     },
     "ADMIN_PASSWORD": {
       "description": "A password for the admin API used by https://github.com/conc-at/twitterwall-cli",
-      "required": false
+	  "value": 'XXX'	  
+      "required": true
 
     },
     "BLOCKED_USERS": {

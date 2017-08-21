@@ -1,4 +1,4 @@
-'use strict'
+ 'use strict'
 
 /*jshint camelcase: false */
 
@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   lanyrd: {
-    overwriteDate: '2015-03-07', // for debugging
+    overwriteDate: '2017-09-27', // for debugging
     year: e.LANYRD_YEAR || '2015',
     id: e.LANYRD_ID || 'concat',
     showNext: 15000,
@@ -40,64 +40,64 @@ module.exports = {
     blockPossiblySensitive: true
   },
   sponsors: [{
-    image: 'https://conc.at/images/logos/zalando@2x.png',
-    name: 'Zalando Technology',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/04/sponsor-cloudandheat.png',
+    name: 'Cloud&Heat',
     duration: 20000
   }, {
-    image: 'https://conc.at/images/logos/pusher@2x.png',
-    name: 'Pusher',
-    duration: 20000
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/06/sponsor-visualworld.png',
+    name: 'Visual World',
+    duration: 15000
   }, {
-    image: 'https://conc.at/images/logos/braintree@2x.png',
-    name: 'Braintree Payments',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/06/sponsor-itelligence.png',
+    name: 'BIT.Group',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/aws@2x.png',
-    name: 'Amazon Web Services',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/04/sponsor-degruyter.png',
+    name: 'DE GRUYTER',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/travis@2x.png',
-    name: 'Travis CI',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/04/sponsor-euroengineering.png',
+    name: 'euro engineering AG',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/hoodie@2x.png',
-    name: 'Hoodie',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/04/sponsor-intergator.png',
+    name: 'intergator',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/mandrill@2x.png',
-    name: 'Mandrill',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/03/sponsor-megware.png',
+    name: 'Megware',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/gg@2x.png',
-    name: 'gesagt.getan',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/06/sponsor-springervieweg.png',
+    name: 'Springer Vieweg',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/siili@2x.png',
-    name: 'Siili',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/03/sponsor-dmk.jpg',
+    name: 'DMK E-BUSINESS GmbH',
+    duration: 5000
+  }, {
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/07/sponsor-tuvit.png',
+    name: 'TÜV IT GmbH',
+    duration: 5000
+  }, {
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/07/sponsor-proetcon.png',
+    name: 'pro et con',
+    duration: 5000
+  }, {
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2017/08/sponsor-baselabs.png',
+    name: 'Baselabs',
+    duration: 5000
+  }, {
+    image: 'https://informatik2017.de/files/2016/11/bmbf.png',
+    name: 'BMBF',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/diamonddogs@2x.png',
-    name: 'the diamond:dogs|group',
+    image: 'https://medien.informatik.tu-chemnitz.de/informatik2017/files/2016/06/TU_Chemnitz_positiv_gruen.png',
+    name: 'TU Chemnitz',
     duration: 10000
   }, {
-    image: 'https://conc.at/images/logos/codeschool@2x.png',
-    name: 'codeschool',
-    duration: 10000
-  }, {
-    image: 'https://conc.at/images/logos/transloadit@2x.png',
-    name: 'Transloadit',
-    duration: 10000
-  }, {
-    image: 'https://conc.at/images/logos/techtrrrs@2x.png',
-    name: 'techtrrrs',
-    duration: 10000
-  }, {
-    image: 'https://conc.at/images/logos/cws@2x.jpg',
-    name: 'Coworking Salzburg',
-    duration: 10000
-  }, {
-    image: 'https://conc.at/images/logos/fh@2x.jpg',
-    name: 'University of Applied Sciences Salzburg',
+    image: 'https://www.gi.de/fileadmin/_processed_/csm_GI-Logo-text-2012_deutsch_421684ec57.png',
+    name: 'GI',
     duration: 10000
   }]
 }

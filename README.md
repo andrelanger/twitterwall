@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://rawgit.com/conc-at/twitterwall/master/app/images/concat.svg" alt=".concat() Logo">
+  <img src="https://medien.informatik.tu-chemnitz.de/informatik2017/files/2016/06/GI-Logo-text-2012_deutsch-e1466163821786.png" alt="INFORMATIK 2017 Logo">
 </p>
-<h1 align="center">.concat() 2015 Twitterwall</h1>
+<h1 align="center">INFORMATIK 2017 Twitterwall</h1>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 [![Travis](https://img.shields.io/travis/conc-at/twitterwall.svg?style=flat)](https://travis-ci.org/conc-at/twitterwall)
