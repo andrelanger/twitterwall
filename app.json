@@ -8,15 +8,15 @@
   "env": {
     "TITLE": {
       "description": "The title of your twitterwall",
-	  "value": 'INFORMATIK 2017'	  
+	  "value": "INFORMATIK 2017"	  
      },
     "HASHTAG": {
       "description": "The main hashtag you want to encourage people to tweet with",
-	  "value": '#informatik17,#informatik2017'
+	  "value": "#informatik17,#informatik2017"
      },
     "HASHTAGS": {
       "description": "A comma seperated list of hashtags you want to display",
-  	  "value": '#informatik2017'
+  	  "value": "#informatik2017"
 
      },
     "USERS": {
@@ -25,27 +25,27 @@
     },
     "ACCESS_TOKEN": {
       "description": "Go to https://apps.twitter.com/ an get yourself some tokens",
-	  "value": 'XXX'
+	  "value": "XXX"
      },
     "ACCESS_TOKEN_SECRET": {
       "description": "See ACCESS_TOKEN",
-	  "value": 'XXX'
+	  "value": "XXX"
      },
     "CONSUMER_KEY": {
       "description": "See ACCESS_TOKEN",
-	  "value": 'XXX'
+	  "value": "XXX"
      },
     "CONSUMER_SECRET": {
       "description": "See ACCESS_TOKEN",
-	  "value": 'XXX'
+	  "value": "XXX"
      },
     "LANYRD_YEAR": {
       "description": "Go to your lanyrd event page and enter the year that is in the URL",
-	  "value": '2017'
+	  "value": "2017"
      },
     "LANYRD_ID": {
       "description": "Go to your lanyrd event page and enter the event name/id that is in the URL",
-	  "value": 'informatik'	  
+	  "value": "informatik"	  
      },
     "ADMIN_USER": {
       "description": "A username for the admin API used by https://github.com/conc-at/twitterwall-cli",
@@ -54,7 +54,7 @@
     },
     "ADMIN_PASSWORD": {
       "description": "A password for the admin API used by https://github.com/conc-at/twitterwall-cli",
-	  "value": 'XXX'	  
+	  "value": "XXX",
       "required": true
 
     },
